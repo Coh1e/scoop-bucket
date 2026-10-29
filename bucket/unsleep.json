@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "description": "Minimal Windows tray utility that keeps the computer awake",
+    "homepage": "https://github.com/Coh1e/unsleep",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Coh1e/unsleep/releases/download/v0.1.0/unsleep-v0.1.0-x64.zip",
+            "hash": "f418ed8c5a7ccf27ec922e403ff439c025fb1ab41aeb67d7ca65eb544a782fa7"
+        }
+    },
+    "bin": "unsleep.exe",
+    "persist": "unsleep.settings",
+    "checkver": {
+        "github": "https://github.com/Coh1e/unsleep"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Coh1e/unsleep/releases/download/v$version/unsleep-v$version-x64.zip"
+            }
+        }
+    }
+}
