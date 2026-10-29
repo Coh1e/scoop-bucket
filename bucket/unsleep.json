@@ -11,6 +11,11 @@
     },
     "bin": "unsleep.exe",
     "persist": "unsleep.settings",
+    "pre_install": [
+        "if (!(Test-Path \"$dir\\unsleep.settings\")) {",
+        "    Set-Content -Path \"$dir\\unsleep.settings\" -Value 'threshold=20' -Encoding ascii",
+        "}"
+    ],
     "checkver": {
         "github": "https://github.com/Coh1e/unsleep"
     },
