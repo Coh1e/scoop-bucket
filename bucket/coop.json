@@ -1,12 +1,12 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Native Windows package manager that shares its install root and state with Scoop",
   "homepage": "https://github.com/Coh1e/coop",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Coh1e/coop/releases/download/v0.3.4/coop-v0.3.4-x64.zip",
-      "hash": "cad67acbf1bfedc8398ce0e9155b534b9ae6598e5444c7114bb55f20ee1bf587"
+      "url": "https://github.com/Coh1e/coop/releases/download/v0.3.5/coop-v0.3.5-x64.zip",
+      "hash": "1d2afdb816552b09a71fa5dc3a6e2c46ff73ff5a6ca6b14df8ce4ab6b9c737e3"
     }
   },
   "bin": "coop.exe",
